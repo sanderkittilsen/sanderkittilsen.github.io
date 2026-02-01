@@ -1,0 +1,19 @@
+{
+  "name": "webproject",
+  "version": "1.0.0",
+  "description": "A basic web development project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server ."
+  },
+  "keywords": [
+    "web",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {}
+}
