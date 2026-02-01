@@ -1,8 +1,104 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
 #logo {
-  color: white;
-  text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
 }
 
 #logo:hover {
-  opacity: 0.8;
+    color: #e8491d;
+}
+
+/* Navigation Styles */
+navigation {
+    display: flex;
+    justify-content: center;
+    background: #35424a;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #e8491d;
+}
+
+/* Main Content Area */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px; 
+    background: white;
+}
+
+/* Articles */
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Aside Box */
+aside {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Login Buttons */
+.login-btn, .register-btn {
+    background: #e8491d;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.login-btn:hover, .register-btn:hover {
+    background: #35424a;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    main {
+        padding: 10px;
+    }
 }
