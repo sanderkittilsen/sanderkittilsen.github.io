@@ -1,9 +1,27 @@
-/* Logo link */
-#logo {
-    color: white;
-    text-decoration: none;
+.header {
+    /* Complete styles for header */
 }
-
-#logo:hover {
-    opacity: 0.8;
+.logo {
+    /* Complete styles for logo */
+}
+.navigation {
+    /* Complete styles for navigation */
+}
+.main-content {
+    /* Complete styles for main content */
+}
+.article {
+    /* Complete styles for articles */
+}
+.aside {
+    /* Complete styles for aside */
+}
+.footer {
+    /* Complete styles for footer */
+}
+.login-buttons {
+    /* Complete styles for login buttons */
+}
+@media (max-width: 768px) {
+    /* Complete styles for responsive design */
 }
